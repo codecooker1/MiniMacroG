@@ -6,11 +6,11 @@ Start making project files and stuff.
 
 # Day 2
 
+Created the project on Blueprint website. 
+
 Hopped into KiCad and started by importing the components symbols and footprints. Plan out what it will look like once finished. Took waayyy too much time than I imagined to do this.
 
 # Day 3
-
-Created the project on Blueprint website. 
 
 Start with the schemantics. At first I wanted to do a 9x9 key setup but later realized there aren't enough pins for that in the microcontroller. Opted in for a 2x3 6 button design with a rotary encoder. Wired the schemantics and placed components in PCB editor.
 
