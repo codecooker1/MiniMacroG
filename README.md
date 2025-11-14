@@ -1,5 +1,15 @@
 MiniMicroG is a cute little macropad made following the [HackPad](https://blueprint.hackclub.com/starter-projects/hackpad) starter guide in Blueprint.
 
+Used Components:
+- Seeed XIAO RP2040
+- Through-hole 1N4148 Diodes
+- MX-Style Switch
+- EC11 Rotary Encoder
+- 0.91 inch OLED display
+- SK6812 MINI-E LED
+- 
+
+
 Here's the picture of the 3d render of PCB
 
 
