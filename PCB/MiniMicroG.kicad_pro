@@ -498,13 +498,13 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "out/MiniMicroG.cad",
       "idf": "",
       "netlist": "",
       "plot": "export/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "MiniMicroG.step",
+      "step": "out/MiniMicroG.step",
       "svg": "",
       "vrml": ""
     },
