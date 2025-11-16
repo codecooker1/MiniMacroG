@@ -1,0 +1,171 @@
+Cmp-Mod V01 Created by PcbNew   date = 2025-11-16T20:23:30+0600
+
+BeginCmp
+TimeStamp = 1241d357-5905-4635-8948-eed01e1cb2f0
+Path = /7a1ab030-bac1-433e-9be3-2faec4e634d5
+Reference = SW7;
+ValeurCmp = RotaryEncoder_Switch;
+IdModule  = Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 1b62d2a9-874a-4b77-a18e-34622abe8d0f
+Path = /f8fb00b4-3705-43f3-a462-d8926cec7325
+Reference = D2;
+ValeurCmp = SK6812MINI;
+IdModule  = LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 2c84e4b3-b332-47cc-b0b5-6b5a96b898c3
+Path = /285a3764-352e-4363-b621-73290571592a
+Reference = SW5;
+ValeurCmp = CHERRY_MX;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = 32773c99-0815-4bea-b3df-fddbe86272c8
+Path = /0e6b7da5-1df8-4520-a9d9-6e3152a72d99
+Reference = SW1;
+ValeurCmp = CHERRY_MX;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = 4ca8227e-6f6c-4f35-80d9-fc3ef0117ec6
+Path = /bfbc429e-88a7-4eb2-a819-6573a17c5be8
+Reference = D12;
+ValeurCmp = SK6812MINI;
+IdModule  = LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5b063a04-06bd-4b23-a0ec-7f1b3bbd75fb
+Path = /ea15a3b3-23a5-4b75-881f-8b94c1221f35
+Reference = U1;
+ValeurCmp = XIAO-RP2040-DIP;
+IdModule  = Seeed Studio XIAO Series Library:XIAO-RP2040-DIP;
+EndCmp
+
+BeginCmp
+TimeStamp = 742a1d79-bfb9-4ec6-aeb9-4be6d05a3025
+Path = /2bd24ad4-c0e9-4ad2-9c5e-22480c19d2eb
+Reference = SW2;
+ValeurCmp = CHERRY_MX;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = 775d25c1-53ff-42e7-a346-337377ec4ee1
+Path = /5c18a666-7b14-49b8-b884-8e98a29a0b2b
+Reference = J1;
+ValeurCmp = .91"OLED;
+IdModule  = KiCad-4_pin-SSD1306_OLED-.91-128x32:SSD1306-0.91-OLED-4pin-128x32;
+EndCmp
+
+BeginCmp
+TimeStamp = c078f162-ee87-41fd-9750-adb804f9be84
+Path = /f6d3b918-c2b4-4f46-bc84-f17a5227e2bc
+Reference = D11;
+ValeurCmp = SK6812MINI;
+IdModule  = LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm;
+EndCmp
+
+BeginCmp
+TimeStamp = ca16d40b-a1fd-4b89-bb1b-96e389575444
+Path = /959394c8-93e1-4b05-b4ce-3fee8b9b3c1e
+Reference = D10;
+ValeurCmp = SK6812MINI;
+IdModule  = LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm;
+EndCmp
+
+BeginCmp
+TimeStamp = ca212f02-4b1e-476e-a386-3bb68565af53
+Path = /7e769bec-5810-4dca-a501-57f4c0ae2387
+Reference = SW4;
+ValeurCmp = CHERRY_MX;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = d3421826-a9dd-4c69-a51d-b27506c19425
+Path = /2871dfc2-55a8-40f8-a294-ae821ef17a26
+Reference = D6;
+ValeurCmp = SK6812MINI;
+IdModule  = LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm;
+EndCmp
+
+BeginCmp
+TimeStamp = e07095f8-f27f-4074-9299-aa3e0ca25f0b
+Path = /45a9c734-c2f3-42ba-88a1-35ca70497c3f
+Reference = SW8;
+ValeurCmp = CHERRY_MX;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = fb1ba5f6-2394-44b2-a299-215a1bb3ef9a
+Path = /211509af-e82b-42b4-a9ee-94ef5ddb1f39
+Reference = SW6;
+ValeurCmp = CHERRY_MX;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = 0e74fea1-2828-4054-87a6-b32e44290ab9
+Path = /6a1bc64a-140b-41c2-9112-336ad5d931ad
+Reference = D9;
+ValeurCmp = 1N4148;
+IdModule  = Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 602cfabe-66e9-499f-ba22-cc9f004ae291
+Path = /b06f553c-de2f-41f5-9b4d-49631ae3708c
+Reference = D5;
+ValeurCmp = 1N4148;
+IdModule  = Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 7b9d373f-a1b3-4330-a66a-df4e5afc847f
+Path = /6688c1b1-ec95-4a16-a73d-de0112bf91e2
+Reference = D7;
+ValeurCmp = 1N4148;
+IdModule  = Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 8a7ea94a-5bb4-4cb4-b06c-e7dfab052b88
+Path = /3740f90b-1e68-4c77-8c21-0aa771f2251b
+Reference = D8;
+ValeurCmp = 1N4148;
+IdModule  = Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 8d3dce73-e9e7-4542-9bc1-b328954996c4
+Path = /63ba28a6-c466-4e83-81f1-e25c7cf5d66a
+Reference = D4;
+ValeurCmp = 1N4148;
+IdModule  = Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = f43c77ef-5d1c-4af7-ab39-e0a341e291af
+Path = /457cbbbb-fc1d-4840-9602-cb0926d6739b
+Reference = D3;
+ValeurCmp = 1N4148;
+IdModule  = Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 35e4cdf2-7523-4b2f-aaef-3b09e90441c5
+Path = /2a6e376f-719a-4f7f-a081-07a1ac54a04e
+Reference = D1;
+ValeurCmp = SK6812MINI;
+IdModule  = LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm;
+EndCmp
+
+EndListe
