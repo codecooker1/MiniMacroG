@@ -520,6 +520,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3D Models/EVQV9_RotaryEncoder.step"
+			(offset
+				(xyz 7.5 -2 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
@@ -800,6 +811,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/3D Models/LED_SK6812MINI-E.step"
+			(offset
+				(xyz 0 5 -1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -1087,6 +1109,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3D Models/cherry-mx-1.snapshot.3/asm_mx_asm_PCB.stp"
+			(offset
+				(xyz -2 -5 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -90)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -1363,13 +1396,24 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.1 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/3D Models/cherry-mx-1.snapshot.3/asm_mx_asm_PCB.stp"
+			(offset
+				(xyz -2 -5 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -90)
 			)
 		)
 	)
@@ -1654,6 +1698,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3D Models/LED_SK6812MINI-E.step"
+			(offset
+				(xyz 0 5 -1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
 	)
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
@@ -1934,6 +1989,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/3D Models/LED_SK6812MINI-E.step"
+			(offset
+				(xyz 0 5 -1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -2565,11 +2631,22 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3D Models/Seeed Studio XIAO RP2040 v26.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "742a1d79-bfb9-4ec6-aeb9-4be6d05a3025")
-		(at 123.66625 104.4575)
+		(at 123.98375 104.4575)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW2"
@@ -2850,6 +2927,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3D Models/cherry-mx-1.snapshot.3/asm_mx_asm_PCB.stp"
+			(offset
+				(xyz -2 -5 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -90)
+			)
+		)
 	)
 	(footprint "KiCad-4_pin-SSD1306_OLED-.91-128x32:SSD1306-0.91-OLED-4pin-128x32"
 		(layer "F.Cu")
@@ -3106,6 +3194,17 @@
 			(uuid "fc2b22d3-5cf0-4da8-8228-c9db36cc067e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D Models/OLED_0.91_128x32.stp"
+			(offset
+				(xyz 19 -6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
 	)
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
@@ -3116,7 +3215,7 @@
 		(property "Reference" "D11"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
-			(uuid "df81049e-6359-4f62-907e-8a9160afbe01")
+			(uuid "64d3ba8f-38a9-4f0f-95b9-36638838af20")
 			(effects
 				(font
 					(size 1 1)
@@ -3127,7 +3226,7 @@
 		(property "Value" "SK6812MINI"
 			(at 0 3.25 0)
 			(layer "F.Fab")
-			(uuid "036368db-4f23-4f23-9a80-7b9039e710b2")
+			(uuid "919c2806-fd23-4028-a18f-edb284ba665d")
 			(effects
 				(font
 					(size 1 1)
@@ -3140,7 +3239,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a65910f1-42aa-4cd8-b0a9-d4e2ffe510b3")
+			(uuid "5843ac80-df43-4377-aace-2af5d29eac7a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3252,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af610c3e-2e4f-48cc-bc6d-a15b7e79a4c2")
+			(uuid "857972dc-d421-4879-baea-6cf87f6b4a13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,6 +3487,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3D Models/LED_SK6812MINI-E.step"
+			(offset
+				(xyz 0 5 -1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
 	)
 	(footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 		(layer "F.Cu")
@@ -3398,7 +3508,7 @@
 		(property "Reference" "D10"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
-			(uuid "41d06f3e-b082-4eb0-8dbb-fab6d1557411")
+			(uuid "5dcfda0a-b429-44d9-a5d2-01d07e15d4d4")
 			(effects
 				(font
 					(size 1 1)
@@ -3409,7 +3519,7 @@
 		(property "Value" "SK6812MINI"
 			(at 0 3.25 0)
 			(layer "F.Fab")
-			(uuid "95d5f68e-39d1-4d4e-b995-5ef0a44f3ae4")
+			(uuid "c0bc4d42-4876-4238-bfb6-9b97a64f6b36")
 			(effects
 				(font
 					(size 1 1)
@@ -3422,7 +3532,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b05c7eb5-3fd3-4f10-92b8-e8bb691f44ee")
+			(uuid "8ce89969-2d62-4659-aef6-58b45c0a4cdf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,7 +3545,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d8f5f99-20ad-4868-984d-becb95a32d97")
+			(uuid "b72e4492-c7c3-4b8d-b9ac-f2314905e5ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,11 +3780,22 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3D Models/LED_SK6812MINI-E.step"
+			(offset
+				(xyz 0 5 -1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "ca212f02-4b1e-476e-a386-3bb68565af53")
-		(at 149.86 78.26375)
+		(at 149.225 78.4225)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW4"
@@ -3953,6 +4074,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/3D Models/cherry-mx-1.snapshot.3/asm_mx_asm_PCB.stp"
+			(offset
+				(xyz -2 -5 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 180 -90)
 			)
 		)
 	)
@@ -4237,6 +4369,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3D Models/LED_SK6812MINI-E.step"
+			(offset
+				(xyz 0 5 -1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -4247,7 +4390,7 @@
 		(property "Reference" "SW8"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "18aa742b-f2f8-41cc-b422-7e9c23285f66")
+			(uuid "60947739-1438-4a94-a97f-426a17af0e88")
 			(effects
 				(font
 					(size 1 1)
@@ -4258,7 +4401,7 @@
 		(property "Value" "CHERRY_MX"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "411db927-b5f5-47df-8239-d88aa75dcf37")
+			(uuid "d20f1274-0a1d-4f6e-877b-7e22c1d25480")
 			(effects
 				(font
 					(size 1 1)
@@ -4271,7 +4414,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b3c7e28-15fa-437d-8157-f9c98d6ff7af")
+			(uuid "be77f1c7-8faf-47ab-8322-8e416522a357")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4427,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "038bfca7-3b2a-4db6-a36b-738122c798c8")
+			(uuid "04fe9bfc-32a1-48f5-9285-f0737ac77c72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,17 +4665,28 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3D Models/cherry-mx-1.snapshot.3/asm_mx_asm_PCB.stp"
+			(offset
+				(xyz -2 -5 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -90)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "fb1ba5f6-2394-44b2-a299-215a1bb3ef9a")
-		(at 176.37125 78.26375)
+		(at 176.37125 78.4225)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW6"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "ac1a7a69-28dd-466d-8dbf-779c1d5bbd79")
+			(uuid "f93640fc-016c-4d25-9dc1-f5ddce4fa1f8")
 			(effects
 				(font
 					(size 1 1)
@@ -4543,7 +4697,7 @@
 		(property "Value" "CHERRY_MX"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "c76b4ac7-1dfb-4d63-89e8-9866b11fadf6")
+			(uuid "0ea7a458-cdd4-419e-862b-83a5a8e6a048")
 			(effects
 				(font
 					(size 1 1)
@@ -4556,7 +4710,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a966b9c6-406d-40e3-abd9-b824ae6cf1d0")
+			(uuid "5aafdffc-7de0-488e-a48b-03975e9b410f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4569,7 +4723,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e589ab1c-913c-42e3-954c-933776b81f0e")
+			(uuid "ca7e7ff9-d50a-44f8-aa12-0e953a8e3a82")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,6 +4951,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4805,6 +4960,41 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/3D Models/asm_mx.asm.16"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/3D Models/cherry-mx-1.snapshot.3/asm_mx_asm_PCB.stp"
+			(offset
+				(xyz -2.5 -5 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -90)
+			)
+		)
+		(model "${KIPRJMOD}/3D Models/cherry-mx-1.snapshot.3/asm_mx_asm_PLATE.stp"
+			(hide yes)
+			(offset
+				(xyz 2 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4817,7 +5007,7 @@
 		(property "Reference" "D9"
 			(at 3.81 2.12 0)
 			(layer "B.SilkS")
-			(uuid "65422320-2f06-4e45-9d51-8e42bebd5fc4")
+			(uuid "2fbe8a9c-9e53-4422-bd54-44b6be0dd869")
 			(effects
 				(font
 					(size 1 1)
@@ -4829,7 +5019,7 @@
 		(property "Value" "1N4148"
 			(at 3.81 -2.12 0)
 			(layer "B.Fab")
-			(uuid "b2eb50ad-2ec4-459a-ade0-7d4a3afadad9")
+			(uuid "8ae46fd8-a88a-45dc-8b7c-5291be2ed78a")
 			(effects
 				(font
 					(size 1 1)
@@ -4842,7 +5032,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "90fe52d3-60d4-4e04-8732-ea3d5ff6ec0b")
+			(uuid "4d48a4e4-0798-426c-8077-4cfa8882cc7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +5045,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ebd4493a-a429-482e-b63b-788676de5348")
+			(uuid "0ca6e768-6c50-4426-b9b6-02bcc8c31afe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +6477,7 @@
 		(property "Reference" "D3"
 			(at 3.81 2.12 0)
 			(layer "B.SilkS")
-			(uuid "3cc55630-14d1-423f-9532-288dd42a4b6c")
+			(uuid "2189b6e3-3339-45ca-9737-4056902e674a")
 			(effects
 				(font
 					(size 1 1)
@@ -6299,7 +6489,7 @@
 		(property "Value" "1N4148"
 			(at 3.81 -2.12 0)
 			(layer "B.Fab")
-			(uuid "c5d94f45-135a-4119-a708-b7388eb17f45")
+			(uuid "f24f23fc-d131-49d1-a6d8-1ce0256ec509")
 			(effects
 				(font
 					(size 1 1)
@@ -6312,7 +6502,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a3d260d2-f4b4-4eb3-be32-76c600f4750a")
+			(uuid "45265ee9-24c6-4078-a7f2-85653c4f26b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +6515,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a9c088da-0f56-4d51-b824-ca410a9a3393")
+			(uuid "2a5c34e0-c1be-4d6e-8762-11faa3901c5a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8504,14 +8694,6 @@
 		(layer "B.Cu")
 		(net 26)
 		(uuid "c8cb30a9-8022-4270-969b-50a0fe20f929")
-	)
-	(segment
-		(start 183.226 97.63125)
-		(end 183.35625 97.63125)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 26)
-		(uuid "f19eff0a-3a28-44dc-88e4-af625eb7f89c")
 	)
 	(segment
 		(start 180.975 126.20625)
