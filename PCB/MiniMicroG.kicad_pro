@@ -502,7 +502,7 @@
       "idf": "",
       "netlist": "",
       "plot": "export/",
-      "pos_files": "",
+      "pos_files": "export/",
       "specctra_dsn": "",
       "step": "out/MiniMicroG.stl",
       "svg": "",
