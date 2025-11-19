@@ -504,7 +504,7 @@
       "plot": "export/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "out/MiniMicroG.step",
+      "step": "out/MiniMicroG.stl",
       "svg": "",
       "vrml": ""
     },
